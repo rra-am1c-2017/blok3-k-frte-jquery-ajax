@@ -61,6 +61,10 @@ $(document).ready(function() {
     $("#left li:eq(2)").css({"background-color" : "rgb(0,255, 200)", "border-radius" : "5px"})
   });
 
+  $("#not_li").on("click", function() {
+    $("#left li:not(li:eq(2))").css({"background-color" : "rgb(0,255, 200)", "border-radius" : "5px"})
+  });
+
 
 
 
