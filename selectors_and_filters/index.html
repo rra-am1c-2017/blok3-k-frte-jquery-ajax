@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="./css/style.css">
     <title>Selectors and Filters</title>
   </head>
   <body>
@@ -16,21 +16,40 @@
       <div class="row">
         <div class="col-6">
           <ol id="left">
-              <li>Dit is de eerste regel</li>
+              <li class="red">Dit is de eerste regel</li>
               <li>Dit is de tweede regel</li>
-              <li>Dit is de derde regel</li>
-              <li>Dit is de vierde regel</li>
+              <li class="blue">Dit is de derde regel</li>
+              <li class="red">Dit is de vierde regel</li>
               <li>Dit is de vijfde regel</li>
           </ol>
         </div>
         <div class="col-6">
           <ol id="right">
               <li>Dit is de eerste regel</li>
-              <li>Dit is de tweede regel</li>
-              <li>Dit is de derde regel</li>
-              <li>Dit is de vierde regel</li>
+              <li class="blue">Dit is de tweede regel</li>
+              <li class="red">Dit is de derde regel</li>
+              <li class="blue">Dit is de vierde regel</li>
               <li>Dit is de vijfde regel</li>
           </ol>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6">
+          <button type="button" class="btn btn-primary btn-lg btn-block" id="first_li">Verander css van eerste li</button>
+          <button type="button" class="btn btn-success btn-lg btn-block" id="last_li">Verander css van laatste li</button>
+          <button type="button" class="btn btn-danger btn-lg btn-block" id="even_li">Verander css van even li's</button>
+          <button type="button" class="btn btn-warning btn-lg btn-block" id="odd_li">Verander css van oneven li's</button>
+          <button type="button" class="btn btn-info btn-lg btn-block" id="gt_li">Verander css van li's > 2</button>          
+          <button type="button" class="btn btn-secondary btn-lg btn-block" id="lt_li">Verander css van li's kleiner dan 3</button> 
+          
+          <button type="button" class="btn btn-primary btn-lg btn-block" id="eq_li">Verander css van li's gelijk aan 3</button>          
+          
+        </div>
+        
+        </div>
+        <div class="col-6">
+
         </div>
       </div>
 
