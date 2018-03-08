@@ -6,8 +6,33 @@
   margin-bottom : 1em;
 }
 
+#second {
+  background-color: rgb(40,230,10);
+  width: 100%;
+  height: 250px;
+  margin-right: 1em;
+  margin-bottom : 1em;
+}
+
+#third {
+  background-color: rgb(35, 49, 247);
+  width: 100%;
+  height: 250px;
+  margin-right: 1em;
+  margin-bottom : 1em;
+}
+
+.radius {
+  border-radius : 3em;
+}
+
 .thick_border {
   border : 20px solid black;
+}
+
+.toggle {
+  border : 60px dashed yellow;
+  border-radius : 3em;
 }
 
 .changeCss {
