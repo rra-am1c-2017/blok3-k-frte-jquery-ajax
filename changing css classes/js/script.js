@@ -1,5 +1,10 @@
 $(document).ready(function () {
-  
+  setInterval(toggle, 500);
+
+  function toggle() {
+    $("#third").toggleClass("toggle");
+  }
+
   $("#adborder").on("click", function () {
     $("#first").addClass("thick_border");
   })
