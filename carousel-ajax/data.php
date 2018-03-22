@@ -1,4 +1,3 @@
 <?php
-  echo "Dit is de datapagina";
-  var_dump($_POST);
+  include("./connect_db.php");
 ?>

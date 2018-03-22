@@ -1,4 +1,7 @@
+// Dit zorgt ervoor dat de pagina index.html helemaal geladen is voordat we scripten
 $(document).ready(function () {
+
+  // We selectoren de select-tag
   $("#selectCategory").on("change", function () {
 
     // Dit is de gekozen waarde in de select
@@ -8,6 +11,8 @@ $(document).ready(function () {
            {"category" : category},
            function(data) {
             // Hier komt code om de opgehaalde tekst weg te zetten op index.html
+            console.log(data);
+            $(".jumbotron p").html(data);
            },
            "text");
   })
